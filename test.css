@@ -1,0 +1,108 @@
+/* selector {
+  property:value;
+} */
+
+* {
+  /* ususlly found at top */
+  text-align: right;
+}
+h1,
+li {
+  color: red;
+  background-color: blue;
+  cursor: pointer;
+  text-align: center;
+  /* h1 and l1 are the same */
+  border: 5x solid rgba(20, 176, 170, 0);
+}
+.firstpara {
+}
+
+#div1 {
+}
+h1 li {
+  color: red;
+  background-color: blue;
+  cursor: pointer;
+  text-align: center;
+  /* all l1 inside of h1 */
+  border: 5x solid rgba(20, 176, 170, 0);
+}
+h1 > li {
+  color: red;
+  background-color: blue;
+  cursor: pointer;
+  text-align: center;
+  /* all li that are child of h1 */
+  border: 5x solid rgba(20, 176, 170, 0);
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  font-size: 5em;
+  /* rem is root element and that is html aka the page so it will get large  so 2rem will be 2x size of document*/
+  /* 5m is want the piexels to be 5x the cotained elemtned akak whatever is in span */
+}
+
+.boxmodelline {
+  border: 5px solid red;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  margin: 5px 20px;
+  width: 33px;
+  height: 55px;
+  /* width lengt for content inside box */
+  /* same as the above is assume top/bottoom and left/right */
+  /* top right bottom left */
+}
+img {
+  float: left;
+  /* floats image to left of right and has text wrap around it */
+}
+h2 :hover {
+  /* this means when you hover over the elemnt it will change  */
+}
+
+p {
+  text-decoration: line-through;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 50%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* .class
+#id
+*
+element
+element, element
+element element
+element >element 
+element +element
+:hover
+:last-child
+:first-child
+!important
+
+Factors to determine which cascasde wins:
+specefitiy 
+importance
+source order
+ */
+/* adding opacity with rgba = a means alpha and the opacity how clear or see through */
+p {
+  color: blue;
+  /* if two p selectors it will that last one goiung from top bottom */
+}
+
+li {
+  display: inline;
+}
+
+/* 
+you wan to go from big to small i.e body then headin gthen p then span
+ */

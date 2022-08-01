@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <!-- CDN= content delivery network deliver the CSS and code to out page via a api query -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boostrapping</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="boostrap.css"
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">toggleicontxt</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav> -->
+    <!-- Begin Mailchimp Signup Form -->
+    <link
+      href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+        width: 600px;
+      }
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
+    <!-- mailchimo code that allows this to be fed back to their data bas e and add up the subscribers -->
+    <div id="mc_embed_signup">
+      <form
+        action="https://gmail.us18.list-manage.com/subscribe/post?u=c9397542f25b41bb3d6b6d65f&amp;id=ca4878cc5e"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate"
+        target="_blank"
+        novalidate
+      >
+        <div id="mc_embed_signup_scroll">
+          <h2>Subscribe</h2>
+          <div class="indicates-required">
+            <span class="asterisk">*</span> indicates required
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL"
+              >Email Address <span class="asterisk">*</span>
+            </label>
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="required email"
+              id="mce-EMAIL"
+            />
+          </div>
+          <div id="mce-responses" class="clear foot">
+            <div
+              class="response"
+              id="mce-error-response"
+              style="display: none"
+            ></div>
+            <div
+              class="response"
+              id="mce-success-response"
+              style="display: none"
+            ></div>
+          </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px" aria-hidden="true">
+            <input
+              type="text"
+              name="b_c9397542f25b41bb3d6b6d65f_ca4878cc5e"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+          <div class="optionalParent">
+            <div class="clear foot">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button"
+              />
+              <p class="brandingLogo">
+                <a
+                  href="http://eepurl.com/h7FY6f"
+                  title="Mailchimp - email marketing made easy and fun"
+                  ><img
+                    src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"
+                /></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[1] = "FNAME";
+        ftypes[1] = "text";
+        fnames[2] = "LNAME";
+        ftypes[2] = "text";
+        fnames[3] = "ADDRESS";
+        ftypes[3] = "address";
+        fnames[4] = "PHONE";
+        ftypes[4] = "phone";
+        fnames[5] = "BIRTHDAY";
+        ftypes[5] = "birthday";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+    <!--End mc_embed_signup-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+      dolores dicta delectus dolorum quisquam autem ullam, odit fugiat est
+      pariatur, aperiam deserunt saepe reiciendis dolor asperiores assumenda,
+      consequatur animi architecto!
+    </p>
+    <!-- Js at bottom bc want website to lead then scripts load bc if at top scipts load and website wont -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
